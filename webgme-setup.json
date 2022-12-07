@@ -6,7 +6,11 @@
         "test": "test/plugins/PetriNetClassificationPlugin"
       }
     },
-    "seeds": {}
+    "seeds": {
+      "PetriNetSeed": {
+        "src": "src/seeds/PetriNetSeed"
+      }
+    }
   },
   "dependencies": {
     "plugins": {},
