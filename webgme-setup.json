@@ -1,4 +1,15 @@
 {
-  "components": {},
-  "dependencies": {}
+  "components": {
+    "plugins": {
+      "PetriNetClassificationPlugin": {
+        "src": "src/plugins/PetriNetClassificationPlugin",
+        "test": "test/plugins/PetriNetClassificationPlugin"
+      }
+    },
+    "seeds": {}
+  },
+  "dependencies": {
+    "plugins": {},
+    "seeds": {}
+  }
 }
